@@ -31,11 +31,11 @@ public class AnimalTest
     	Assert.assertEquals("Tony", animal.getName());
     	Assert.assertEquals(200.1, animal.getWeight());
     	Assert.assertEquals(20, animal.getHeight());
+    	
+    	String expected = "Tony, a Orange-colored animal. 200.1 pounds, 20 inches";
+    	String actual = animal.toString();
+    	Assert.assertEquals(expected, actual);
     }
 
-    public void gettersTest() throws AssertException
-    {
-    	
-    }
 }
 
