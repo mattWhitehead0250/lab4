@@ -36,6 +36,18 @@ public class AnimalTest
     	String actual = animal.toString();
     	Assert.assertEquals(expected, actual);
     }
-
+    
+    public void equalsTest() throws AssertException
+    {
+    	Animal animal1 = new Animal("Orange", "Tony", 200.2, 20);
+    	Animal animal2 = new Animal("Blue", "Tom", 200.5, 21);
+    	Boolean expected = false;
+    	Boolean actual = animal1.equals(animal2);
+    	Assert.assertEquals(expected, actual);
+    	Animal animal3 = new Animal("Blue", "Tom", 200.5, 21);
+    	expected = true;
+    	actual = animal3.equals(animal2);
+    	Assert.assertEquals(expected, actual);
+    }
 }
 
