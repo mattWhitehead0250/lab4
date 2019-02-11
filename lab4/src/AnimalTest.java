@@ -29,10 +29,10 @@ public class AnimalTest
     	Animal animal = new Animal("Orange", "Tony", 200.1, 20);
     	Assert.assertEquals("Orange", animal.getColor());
     	Assert.assertEquals("Tony", animal.getName());
-    	Assert.assertEquals(200.1, animal.getWeight());
-    	Assert.assertEquals(20, animal.getHeight());
+    	Assert.assertEquals(200.1, animal.getWeight(), .01);
+    	Assert.assertEquals(20.0, animal.getHeight(), .01);
     	
-    	String expected = "Tony, a Orange-colored animal. 200.1 pounds, 20 inches";
+    	String expected = "Tony, a Orange-colored animal. 200.1 pounds, 20.0 inches";
     	String actual = animal.toString();
     	Assert.assertEquals(expected, actual);
     }
