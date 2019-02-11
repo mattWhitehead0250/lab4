@@ -1,8 +1,8 @@
 public class Todo {/*
-Lab Section_________: XX
-Last Modified_______: 20XX-XX-XX
-OU ID_______________: XXXXXXXXX
-OU EMAIL____________: XXX@ou.edu
+Lab Section_________: 11
+Last Modified_______: 2019-02-XX
+OU ID_______________: 112737541
+OU EMAIL____________: matthew.s.whitehead-1@ou.edu
 
 Tasks:
 1. XXX

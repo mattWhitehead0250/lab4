@@ -32,7 +32,7 @@ public class AnimalTest
     	Assert.assertEquals(200.1, animal.getWeight(), .01);
     	Assert.assertEquals(20.0, animal.getHeight(), .01);
     	
-    	String expected = "Tony, a Orange-colored animal. 200.1 pounds, 20.0 inches";
+    	String expected = "Tony, a Orange-colored animal. 200.1 pounds, 20.0 inches\n";
     	String actual = animal.toString();
     	Assert.assertEquals(expected, actual);
     }
